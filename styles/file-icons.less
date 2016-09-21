@@ -1,0 +1,57 @@
+.icon-file-directory:before,
+.icon.icon-file-text:before {
+  z-index: -1;
+}
+
+.svn_normal         { background-image:url('atom://overlay-status-icons/icons/normal.png'); }
+.svn_modified       { background-image:url('atom://overlay-status-icons/icons/modified.png'); }
+.svn_added          { background-image:url('atom://overlay-status-icons/icons/added.png'); }
+.svn_conflicted     { background-image:url('atom://overlay-status-icons/icons/conflicted.png'); }
+.svn_deleted        { background-image:url('atom://overlay-status-icons/icons/deleted.png'); }
+.svn_ignored        { background-image:url('atom://overlay-status-icons/icons/ignored.png'); }
+.svn_locked         { background-image:url('atom://overlay-status-icons/icons/locked.png'); }
+
+.svn_non-versioned  { background-image:url('atom://overlay-status-icons/icons/non-versioned.png'); }
+.svn_readonly       { background-image:url('atom://overlay-status-icons/icons/readonly.png'); }
+
+.svn_file_icon {
+  background-repeat:no-repeat!important;
+  background-position: 10px bottom!important;
+  background-size: 12px 12px!important;
+}
+
+.directory.entry.list-nested-item.collapsed:not(.project-root) .header.list-item,
+.directory.entry.list-nested-item.expanded:not(.project-root) .header.list-item,
+.file.entry.list-item { .svn_normal; .svn_file_icon; }
+
+.directory.entry.list-nested-item.status-modified.collapsed .header.list-item,
+.directory.entry.list-nested-item.status-modified.expanded .header.list-item,
+.file.entry.list-item.status-modified { .svn_modified; .svn_file_icon; }
+
+.directory.entry.list-nested-item.status-added.collapsed .header.list-item,
+.directory.entry.list-nested-item.status-added.expanded .header.list-item,
+.file.entry.list-item.status-added { .svn_added; .svn_file_icon; }
+
+.directory.entry.list-nested-item.status-conflicted.collapsed .header.list-item,
+.directory.entry.list-nested-item.status-conflicted.expanded .header.list-item,
+.file.entry.list-item.status-conflicted { .svn_conflicted; .svn_file_icon; }
+
+.directory.entry.list-nested-item.status-deleted.collapsed .header.list-item,
+.directory.entry.list-nested-item.status-deleted.expanded .header.list-item,
+.file.entry.list-item.status-deleted { .svn_deleted; .svn_file_icon; }
+
+.directory.entry.list-nested-item.status-ignored.collapsed .header.list-item,
+.directory.entry.list-nested-item.status-ignored.expanded .header.list-item,
+.file.entry.list-item.status-ignored { .svn_ignored; .svn_file_icon; }
+
+.directory.entry.list-nested-item.status-locked.collapsed .header.list-item,
+.directory.entry.list-nested-item.status-locked.expanded .header.list-item,
+.file.entry.list-item.status-locked { .svn_locked; .svn_file_icon; }
+
+.directory.entry.list-nested-item.status-readonly.collapsed .header.list-item,
+.directory.entry.list-nested-item.status-readonly.expanded .header.list-item,
+.file.entry.list-item.status-readonly { .svn_readonly; .svn_file_icon; }
+
+.directory.entry.list-nested-item.status-non-versioned.collapsed .header.list-item,
+.directory.entry.list-nested-item.status-non-versioned.expanded .header.list-item,
+.file.entry.list-item.status-non-versioned { .svn_readonly; .svn_file_icon; }
