@@ -1,20 +1,22 @@
 {
   "name": "overlay-status-icons",
   "main": "./lib/overlay-status-icons",
-  "version": "0.0.0",
-  "description": "Adds Overlay Status Icons on top of file-tree icons",
+  "version": "0.0.1",
+  "description": "Overlay Status Icons on top of file-tree icons",
   "keywords": [
-    "icons",
-    "file-tree"
     "tortoise",
     "subversion",
-    "svn"
+    "svn",
+    "vcs"
   ],
   "repository": "https://github.com/natureglass/overlay-status-icons",
   "license": "alexdaskalakis@gmail.com",
   "engines": {
     "atom": ">=0.200.0"},
   "dependencies": {
+    "event-kit": "2.0.0",
+    "jquery": "2.2.0",
+    "jsdifflib": "1.1.0"
   },
   "providedServices": {
     "atom.repository-provider": {
