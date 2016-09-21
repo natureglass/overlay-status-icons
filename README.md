@@ -4,4 +4,4 @@
 
 ### File Tree Status Icons ###
 
-![tortoise-svn-icons](https://cloud.githubusercontent.com/assets/22228718/18645663/68b897be-7eae-11e6-8619-1959645b3cab.png)
+![overlay_icons](https://cloud.githubusercontent.com/assets/22228718/18722368/dc458e4e-8034-11e6-9c1f-ba0e1fb3591a.png)
