@@ -4,6 +4,9 @@
   "version": "0.1.0",
   "description": "Overlay Status Icons on top of file-tree icons",
   "keywords": [
+    "icons",
+    "file",
+    "tree",
     "tortoise",
     "subversion",
     "svn",
