@@ -2,7 +2,7 @@
 
 >Working together with any File Tree icons
 
-**Tested and working with 100% with One Light UI**
+**Tested and working 100% with One Light UI**
 
 *Icon is disappearing when file is selected on some UI*
 
