@@ -18,9 +18,6 @@
     "atom": ">=0.200.0"
   },
   "dependencies": {
-    "event-kit": "2.0.0",
-    "jquery": "2.2.0",
-    "jsdifflib": "1.1.0"
   },
   "providedServices": {
     "atom.repository-provider": {

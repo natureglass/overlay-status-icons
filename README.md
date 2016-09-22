@@ -1,6 +1,10 @@
 # File Tree - Overlay Status Icons for Atom Editor
 
->Can working together with any File Tree icons
+>Working together with any File Tree icons
+
+**Tested and working with 100% with One Light UI**
+
+*Icon is disappearing when file is selected on some UI*
 
 ### File Tree Status Icons ###
 
