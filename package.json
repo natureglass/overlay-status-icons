@@ -1,7 +1,7 @@
 {
   "name": "overlay-status-icons",
   "main": "./lib/overlay-status-icons",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Overlay Status Icons on top of file-tree icons",
   "keywords": [
     "file-icons",
