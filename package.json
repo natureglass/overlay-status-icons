@@ -4,13 +4,14 @@
   "version": "0.1.2",
   "description": "Overlay Status Icons on top of file-tree icons",
   "keywords": [
+    "file-icons",
+    "file-tree",
     "icons",
     "file",
     "tree",
     "tortoise",
     "subversion",
-    "svn",
-    "vcs"
+    "svn"
   ],
   "repository": "https://github.com/natureglass/overlay-status-icons",
   "license": "alexdaskalakis@gmail.com",
