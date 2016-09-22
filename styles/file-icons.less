@@ -1,6 +1,11 @@
+.focusable-panel:focus .selected:before,
+.tree-view .selected:before {
+  z-index: -1!important;
+}
+
 .icon-file-directory::before,
 .icon.icon-file-text::before {
-  z-index: 0;
+  z-index: -1;
 }
 
 .svn_normal         { background-image:url('atom://overlay-status-icons/icons/normal.png'); }
